@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5DF5232B9932C800664A09 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DF5222B9932C800664A09 /* Triangle.swift */; };
+		CC5DF5252B99377E00664A09 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DF5242B99377E00664A09 /* ShapeView.swift */; };
 		CCAED6FE2B97E59A00FE0913 /* FourColoredCirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */; };
 		CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6FF2B97E59A00FE0913 /* ContentView.swift */; };
 		CCAED7022B97E59B00FE0913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAED7012B97E59B00FE0913 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC5DF5222B9932C800664A09 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		CC5DF5242B99377E00664A09 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		CCAED6FA2B97E59A00FE0913 /* FourColoredCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourColoredCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourColoredCirclesApp.swift; sourceTree = "<group>"; };
 		CCAED6FF2B97E59A00FE0913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */,
 				CCAED6FF2B97E59A00FE0913 /* ContentView.swift */,
+				CC5DF5242B99377E00664A09 /* ShapeView.swift */,
+				CC5DF5222B9932C800664A09 /* Triangle.swift */,
 				CCAED7012B97E59B00FE0913 /* Assets.xcassets */,
 				CCAED7032B97E59B00FE0913 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5DF5232B9932C800664A09 /* Triangle.swift in Sources */,
 				CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */,
+				CC5DF5252B99377E00664A09 /* ShapeView.swift in Sources */,
 				CCAED6FE2B97E59A00FE0913 /* FourColoredCirclesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
