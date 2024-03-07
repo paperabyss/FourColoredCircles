@@ -14,23 +14,43 @@ struct ShapeView: View {
 
     var shapeColor: Color {
         switch color {
-        case "blue":
+        case "Blue":
             return .blue
 
-        case "red":
+        case "Red":
             return .red
 
+        case "Yellow":
+            return .yellow
+
+        case "Pink":
+            return .pink
+
+        case "Purple":
+            return .purple
+
+        case "Green":
+            return .green
+
+        case "Black":
+            return .black
+            
         default:
             return .black
         }
     }
 
     var body: some View {
-        Image(systemName: "\(shape).fill")
-            .resizable()
-            .foregroundStyle(shapeColor)
-            .frame(width: 100, height: 100)
-            .background()
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: CGFloat(100)))]){
+            ForEach(0..<number) { _ in
+                Image(systemName: "\(shape.lowercased()).fill")
+                    .resizable()
+                    .foregroundStyle(shapeColor)
+                    .frame(width: 100, height: 100)
+                    .background()
+            }
+        }
+        .padding()
     }
 }
 
