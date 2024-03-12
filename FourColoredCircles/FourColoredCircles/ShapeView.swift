@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ShapeView: View {
+    @Environment(\.dismiss) var dismiss
     let shape: String
     let color: String
     let number: Int
@@ -44,6 +45,7 @@ struct ShapeView: View {
     }
 
     var body: some View {
+        Spacer()
         Text(number > 1 ? "What are they?" : "What is it?")
             .font(.title)
         LazyVGrid(columns: [GridItem(.adaptive(minimum: CGFloat(100)))]){
@@ -56,6 +58,11 @@ struct ShapeView: View {
             }
         }
         .padding()
+        Spacer()
+        Button("Press to dismiss") {
+                    dismiss()
+                }
+        Spacer()
     }
 }
 

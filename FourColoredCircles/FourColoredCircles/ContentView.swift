@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var shape = "Circle"
     @State var color = "Blue"
     @State var number = 1
-    @State var showShapes = false
+    @State var showingShapes = false
     var body: some View {
         NavigationView {
             Form {
@@ -35,14 +35,29 @@ struct ContentView: View {
                     }
                     .padding()
                 }
-                Section(header: Text("Make an image")) {
-                    NavigationLink(destination: ShapeView(shape: shape, color: color, number: number)) {
-                        Text("Make some shapes")
+
+                Section(header: Text("Make Shapes")) {
+                    Button("Make Shapes") {
+                        showingShapes.toggle()
+                    }
                 }
+
+                Section(header: Text("Make Random Shapes")) {
+                    Button("Make Random Shapes") {
+                        color = colors[Int.random(in: 0...7)]
+                        shape = shapes[Int.random(in: 0...3)]
+                        number = Int.random(in: 1...12)
+
+                        showingShapes.toggle()
+                    }
                 }
             }
+            .sheet(isPresented: $showingShapes, content: {
+                ShapeView(shape: shape, color: color, number: number)
+            })
             .navigationTitle("FourColoredCircles")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
