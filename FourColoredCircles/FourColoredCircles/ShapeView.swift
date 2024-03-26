@@ -39,6 +39,9 @@ struct ShapeView: View {
         case "Brown":
             return .brown
 
+        case "Light Blue":
+            return .teal
+
         default:
             return .black
         }

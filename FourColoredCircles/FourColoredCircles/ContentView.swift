@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     let shapes = [ "Circle", "Square", "Triangle", "Star"]
-    let colors = ["Blue", "Red", "Yellow", "Pink", "Purple", "Green", "Black", "Brown"]
+    let colors = ["Blue", "Red", "Yellow", "Pink", "Purple", "Green", "Black", "Brown", "Light Blue"]
     @State var shape = "Circle"
     @State var color = "Blue"
     @State var number = 1
