@@ -12,6 +12,7 @@
 		CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6FF2B97E59A00FE0913 /* ContentView.swift */; };
 		CCAED7022B97E59B00FE0913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAED7012B97E59B00FE0913 /* Assets.xcassets */; };
 		CCAED7052B97E59B00FE0913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAED7042B97E59B00FE0913 /* Preview Assets.xcassets */; };
+		CCF65D862BBCCA1F006D13AA /* HexColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF65D852BBCCA1F006D13AA /* HexColorExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CCAED6FF2B97E59A00FE0913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCAED7012B97E59B00FE0913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCAED7042B97E59B00FE0913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCF65D852BBCCA1F006D13AA /* HexColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */,
 				CCAED6FF2B97E59A00FE0913 /* ContentView.swift */,
 				CC5DF5242B99377E00664A09 /* ShapeView.swift */,
+				CCF65D852BBCCA1F006D13AA /* HexColorExtention.swift */,
 				CCAED7012B97E59B00FE0913 /* Assets.xcassets */,
 				CCAED7032B97E59B00FE0913 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF65D862BBCCA1F006D13AA /* HexColorExtention.swift in Sources */,
 				CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */,
 				CC5DF5252B99377E00664A09 /* ShapeView.swift in Sources */,
 				CCAED6FE2B97E59A00FE0913 /* FourColoredCirclesApp.swift in Sources */,

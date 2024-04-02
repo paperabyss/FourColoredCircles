@@ -31,7 +31,7 @@ struct ShapeView: View {
             return .purple
 
         case "Green":
-            return .green
+            return Color(hex: "008631")
 
         case "Black":
             return .black
@@ -41,6 +41,12 @@ struct ShapeView: View {
 
         case "Light Blue":
             return .teal
+
+        case "Light Green":
+            return Color(hex:"5ced73")
+
+        case "Light Purple":
+            return Color(hex:"d6b4fc")
 
         default:
             return .black
