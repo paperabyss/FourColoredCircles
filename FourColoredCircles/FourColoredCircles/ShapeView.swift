@@ -68,7 +68,7 @@ struct ShapeView: View {
         }
         .padding()
         Spacer()
-        Button("Press to dismiss") {
+        Button("Make More") {
                     dismiss()
                 }
         Spacer()
