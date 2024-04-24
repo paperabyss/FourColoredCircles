@@ -55,7 +55,7 @@ struct ContentView: View {
             .sheet(isPresented: $showingShapes, content: {
                 ShapeView(shape: shape, color: color, number: number)
             })
-            .navigationTitle("FourColoredCircles")
+            .navigationTitle("Four Colored Circles")
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
