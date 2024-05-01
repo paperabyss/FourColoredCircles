@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC5DF5252B99377E00664A09 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DF5242B99377E00664A09 /* ShapeView.swift */; };
+		CC7ED05F2BE306FA00827AEF /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7ED05E2BE306FA00827AEF /* AnimalView.swift */; };
 		CCAED6FE2B97E59A00FE0913 /* FourColoredCirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */; };
 		CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6FF2B97E59A00FE0913 /* ContentView.swift */; };
 		CCAED7022B97E59B00FE0913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAED7012B97E59B00FE0913 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		CC5DF5242B99377E00664A09 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		CC7ED05E2BE306FA00827AEF /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 		CCAED6FA2B97E59A00FE0913 /* FourColoredCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourColoredCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourColoredCirclesApp.swift; sourceTree = "<group>"; };
 		CCAED6FF2B97E59A00FE0913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				CCAED6FD2B97E59A00FE0913 /* FourColoredCirclesApp.swift */,
 				CCAED6FF2B97E59A00FE0913 /* ContentView.swift */,
 				CC5DF5242B99377E00664A09 /* ShapeView.swift */,
+				CC7ED05E2BE306FA00827AEF /* AnimalView.swift */,
 				CCF65D852BBCCA1F006D13AA /* HexColorExtention.swift */,
 				CCAED7012B97E59B00FE0913 /* Assets.xcassets */,
 				CCAED7032B97E59B00FE0913 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7ED05F2BE306FA00827AEF /* AnimalView.swift in Sources */,
 				CCF65D862BBCCA1F006D13AA /* HexColorExtention.swift in Sources */,
 				CCAED7002B97E59A00FE0913 /* ContentView.swift in Sources */,
 				CC5DF5252B99377E00664A09 /* ShapeView.swift in Sources */,
