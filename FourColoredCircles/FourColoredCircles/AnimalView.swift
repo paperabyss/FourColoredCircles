@@ -26,8 +26,18 @@ struct AnimalView: View {
             return "🐑"
         case "Goat":
             return "🐐"
+        case "Elephant":
+            return "🐘"
+        case "Pig":
+            return "🐖"
+        case "Dog":
+            return "🐕"
+        case "Cat":
+            return "🐈"
         default:
             return "🦄"
+
+
         }
     }
 

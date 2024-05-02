@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let shapes = [ "Circle", "Square", "Triangle", "Star"]
     let colors = ["Blue", "Light Blue", "Red", "Yellow", "Pink", "Purple", "Light Purple", "Green", "Light Green", "Black", "Brown",  ]
-    let animals = ["Horse", "Sheep", "Cow","Duck", "Chicken", "Goat"]
+    let animals = ["Horse", "Sheep", "Cow","Duck", "Chicken", "Goat", "Elephant", "Pig", "Dog", "Cat"]
     @State var animalMode = false
     @State var animal = "Horse"
     @State var shape = "Circle"
@@ -42,7 +42,6 @@ struct ContentView: View {
 
                             Stepper("Number of shapes:  \(number)", value: $number, in: 1...12)
                         }
-                        .padding()
                     }
                 } else {
                     Section(header: Text("Animal Info")) {
