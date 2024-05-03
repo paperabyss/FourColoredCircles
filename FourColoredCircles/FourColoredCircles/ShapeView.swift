@@ -58,7 +58,7 @@ struct ShapeView: View {
         Text(number > 1 ? "What are they?" : "What is it?")
             .font(.title)
         LazyVGrid(columns: [GridItem(.adaptive(minimum: CGFloat(100)))]){
-            ForEach(0..<number) { _ in
+            ForEach(0..<number, id: \.self) { _ in
                 Image(systemName: "\(shape.lowercased()).fill")
                     .resizable()
                     .foregroundStyle(shapeColor)
