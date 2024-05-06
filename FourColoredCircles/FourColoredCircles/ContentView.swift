@@ -51,7 +51,7 @@ struct ContentView: View {
                                     Text($0)
                                 }
                             }
-                            Stepper("Number of shapes:  \(number)", value: $number, in: 1...12)
+                            Stepper("Number of animals:  \(number)", value: $number, in: 1...12)
                         }
                     }
                 }
